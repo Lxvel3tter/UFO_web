@@ -1,0 +1,38 @@
+body{
+    color:green;
+    background-color: #225149;
+
+}
+button{
+    background-color: greenyellow;
+    color: black;
+    box-shadow: 0 0 10px greenyellow;
+    border-radius: 10px;
+    padding: auto;
+    font-size: auto;
+    cursor: pointer;
+    transition: 0.7s;
+}
+button:hover{
+    background-color:#C4D600;
+    color: black;
+    transform: scale(1.5);
+}
+
+img{
+    box-shadow: 0 0 10px greenyellow;
+    border-radius: 10px;
+    transition: 0.7s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+#oculta:hover{
+    transform: none;
+}
+.Header{
+    color:greenyellow;
+   
+    
+
+}/*. por que es una class*/
