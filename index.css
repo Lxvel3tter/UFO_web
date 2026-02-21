@@ -30,9 +30,21 @@ img:hover{
 #oculta:hover{
     transform: none;
 }
-.Header{
-    color:greenyellow;
-   
-    
 
+.portada{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado horizontal */
+    align-items: center; 
+    gap: 1px;
+    
+    font-size: 60px;
 }/*. por que es una class*/
+
+.portada h1{
+    margin: 0;
+}
+.portada p{
+    margin: 0;
+}
