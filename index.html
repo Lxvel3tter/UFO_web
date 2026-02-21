@@ -8,9 +8,9 @@
   <style>
     body {
       font-family: Arial, sans-serif;
-      margin: 40px;
       background-color: #225149;
       color: green;
+      
     }
 
    
@@ -22,12 +22,18 @@
   <div class="portada">
     <h1 style="text-align: center;">Somos los unicos?</h1>
     <p style="text-align: center;">que hay mas alla de lo que vemos</p>
+    <button onclick="
+      document.body.style.overflow='auto';
+      document.getElementById('cont').scrollIntoView({behavior:'smooth'});
+    ">Explorar</button>
   </div>
-
 
   
 
-  <h1>La Ufología</h1>
+
+  
+  <div>
+  <h1 id="cont">La Ufología</h1>
 
   <hr>
 
@@ -40,18 +46,18 @@
 
   <hr>
 
-  <h2>Tipos de Fenómenos OVNI</h2>
+  <h1>Tipos de Fenómenos OVNI</h1>
 
-  <h3>Luces en el cielo</h3>
+  <h3>-Luces en el cielo</h3>
   <p>Avistamientos de luces extrañas que se mueven de manera inusual o cambian de dirección bruscamente.</p>
 
-  <h3>Encuentros Cercanos</h3>
+  <h3>-Encuentros Cercanos</h3>
   <p>Experiencias reportadas por personas que afirman haber visto naves o seres extraterrestres.</p>
 
-  <h3>Abducciones</h3>
+  <h3>-Abducciones</h3>
   <p>Relatos de personas que aseguran haber sido llevadas a bordo de naves para experimentos o contacto.</p>
 
-  <h3>Evidencia Física</h3>
+  <h3>-Evidencia Física</h3>
   <p>Marcas en el suelo, supuestos restos de naves o grabaciones que se analizan en investigaciones.</p>
 
   <hr>
@@ -87,7 +93,8 @@
   Si no sucede lo anterior, se oculta de nuevo, esto se implemento para poder ocultar la imagen de nuevo-->
 
  
-  <hr>
+  
+  </div>
 
 
 </body>

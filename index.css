@@ -7,14 +7,16 @@
     background-size: cover;
     
     
-    height: 100vh;
+    height: 100dvh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center; /* Centrado horizontal */
     align-items: center; 
-    gap: 1px;
+    
     
     font-size: 60px;
+   
     
 }/*. por que es una class*/
 
@@ -24,24 +26,29 @@
 .portada p{
     margin: 0;
 }
+.portada button{
+    size: 300;
+}
 
+h1,h2,h3,h4,p{
+    margin: 20px 20px;
+}
 
 body{
     color:green;
     background-color: #225149;
+    
     margin: 0;
+   
+}
 
-}
-h1,h2,h3,h4,p{
-    margin: 10px 0px 20px 20px;
-}
+
 
 button{
     background-color: greenyellow;
     color: black;
     box-shadow: 0 0 10px greenyellow;
     border-radius: 10px;
-    padding: auto;
     font-size: auto;
     cursor: pointer;
     transition: 0.7s;
@@ -56,7 +63,8 @@ img{
     box-shadow: 0 0 10px greenyellow;
     border-radius: 10px;
     transition: 0.7s;
-    margin: 50px;
+    margin:20px;
+ 
 }
 img:hover{
     transform: scale(1.2);
