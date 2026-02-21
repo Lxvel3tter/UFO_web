@@ -1,7 +1,11 @@
 body{
     color:green;
     background-color: #225149;
+    margin: 0;
 
+}
+h1,h2,h3,h4,p{
+    margin: 10px;
 }
 button{
     background-color: greenyellow;
@@ -23,6 +27,7 @@ img{
     box-shadow: 0 0 10px greenyellow;
     border-radius: 10px;
     transition: 0.7s;
+    margin: 10px;
 }
 img:hover{
     transform: scale(1.2);
@@ -32,6 +37,14 @@ img:hover{
 }
 
 .portada{
+    color:aliceblue;
+  
+    margin: 0;
+    background-image: url("https://wallpapercat.com/w/full/8/7/7/194290-3840x2160-desktop-4k-outer-space-wallpaper-photo.jpg");
+    background-position: center;
+    background-size: cover;
+    
+    
     height: 100vh;
     display: flex;
     flex-direction: column;
@@ -40,6 +53,7 @@ img:hover{
     gap: 1px;
     
     font-size: 60px;
+    
 }/*. por que es una class*/
 
 .portada h1{
