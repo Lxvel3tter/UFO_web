@@ -10,11 +10,7 @@
       font-family: Arial, sans-serif;
       background-color: #225149;
       color: green;
-      
     }
-
-   
-
   </style>
 </head>
 <body>
@@ -22,83 +18,58 @@
   <div class="portada">
     <h1 style="text-align: center;">Somos los unicos?</h1>
     <p style="text-align: center;">que hay mas alla de lo que vemos</p>
-    <button onclick="
-      document.body.style.overflow='auto';
-      document.getElementById('cont').scrollIntoView({behavior:'smooth'});
-    ">Explorar</button>
+    <button id="explorarBtn">Explorar</button>
   </div>
 
-  
-
-
-  
   <div>
   <h1 id="cont">La Ufología</h1>
 
   <hr>
 
   <h2>¿Qué es la Ufología?</h2>
-  <p>La ufología es el estudio e investigación de los Objetos Voladores No Identificados (OVNIs) y otros fenómenos aéreos anómalos. Analiza reportes, testimonios y evidencias relacionadas con posibles visitas extraterrestres.</p>
-  <p>Para llevar a cabo investigaciones, los ufólogos utilizan <b>testimonios</b>, <b>registros fotográficos</b>, y <b>análisis científicos</b> para intentar explicar los fenómenos observados.</p>
+  <p>La ufología es el estudio e investigación de los Objetos Voladores No Identificados (OVNIs) y otros fenómenos aéreos anómalos.</p>
 
   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOGUQ2n0RBCvnfcLUZy4uHZXhFAzbqHusmaw&s" alt="alien 100% real">
-  <h4>Representación de un alien </h4>
+  <h4>Representación de un alien</h4>
 
   <hr>
 
   <h1>Tipos de Fenómenos OVNI</h1>
 
   <h3>-Luces en el cielo</h3>
-  <p>Avistamientos de luces extrañas que se mueven de manera inusual o cambian de dirección bruscamente.</p>
+  <p>Avistamientos de luces extrañas que se mueven de manera inusual.</p>
 
   <h3>-Encuentros Cercanos</h3>
   <p>Experiencias reportadas por personas que afirman haber visto naves o seres extraterrestres.</p>
 
   <h3>-Abducciones</h3>
-  <p>Relatos de personas que aseguran haber sido llevadas a bordo de naves para experimentos o contacto.</p>
+  <p>Relatos de personas que aseguran haber sido llevadas a bordo de naves.</p>
 
   <h3>-Evidencia Física</h3>
-  <p>Marcas en el suelo, supuestos restos de naves o grabaciones que se analizan en investigaciones.</p>
+  <p>Marcas en el suelo o restos que se analizan en investigaciones.</p>
 
   <hr>
 
   <h2>¿Para qué se estudia?</h2>
-  <p>La ufología busca comprender fenómenos aéreos no identificados, analizar si tienen explicaciones naturales o tecnológicas, y explorar la posibilidad de vida extraterrestre inteligente.</p>
+  <p>La ufología busca comprender fenómenos aéreos no identificados.</p>
 
-  <img src="https://i.pinimg.com/736x/55/77/5e/55775e17766207c86976f48d40e8eaf5.jpg"  style="width:300px;height: 300px;"      alt="Yo">
+  <img src="https://i.pinimg.com/736x/55/77/5e/55775e17766207c86976f48d40e8eaf5.jpg"
+       style="width:300px;height:300px;"
+       alt="Yo">
   <h4>Yo</h4>
 
-  <img id="oculta" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1zyLy7sMyLmMgbtqv0Vnsm19RvWra0es9g&s" style="width: 750px;height: 750px;display:none;"><!--Le colocamos una ID a la imagen, y la bloquemaos(obviamente se pone la URL de la imagen),como no queremos que la imagen se vea, 
-  iniciamos con la el display de la imagen en none (oculta)-->
+  <img id="oculta"
+       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRP1zyLy7sMyLmMgbtqv0Vnsm19RvWra0es9g&s"
+       style="width:750px;height:750px;display:none;">
 
   <audio id="audio" src="Alien_cat.mp3" loop></audio>
 
-  <button onclick="var img=document.getElementById('oculta'); 
-  var aud=document.getElementById('audio');
-  if (img.style.display=='none'){
-    img.style.display='block'
-    aud.play();
+  <button id="dineroBtn" style="width:100px;height:30px">
+    Dinero gratis
+  </button>
 
-  }else{
-    img.style.display='none'
-    aud.pause();
-  }"
-  
-  
-  style="width: 100px;height: 30px">Dinero gratis
-
-  </button><!--Se crea un boton que al clickear, genera todo el codigo dentro del boton.
-  creamos una var(variable) llamda img que busca en document(toda la pagina web) el elemento con la ID oculta.
-  Con if revisamos si el display de la imagen esta en none, si esta, entonce cambia su estado a Block(Se mostrara como un bloque en la pagina).
-  Si no sucede lo anterior, se oculta de nuevo, esto se implemento para poder ocultar la imagen de nuevo-->
-
- 
-  
   </div>
-  <script>
-document.body.style.overflow='hidden';
-</script>
 
-
+  <script src="script.js"></script>
 </body>
 </html>
